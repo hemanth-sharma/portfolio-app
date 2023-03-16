@@ -16,6 +16,7 @@ import GitIcon from "../../assets/Icons/GitSVG_icon";
 import NodeIconSVG from "../../assets/Icons/NodeIcon_SVG";
 import ExpressIconSVG from "../../assets/Icons/ExpressIcon_SVG";
 import ReactIconSVG from "../../assets/Icons/ReactIcon_SVG";
+import MongoDbIcon from "../../assets/Icons/Mongodb_Icon";
 
 function Skills() {
   return (
@@ -150,7 +151,7 @@ function Skills() {
           </ul>
         </section>
 
-        {/* <!-- Data Visualization Tools --> */}
+        {/* <!-- Database Tools --> */}
         <section className="my-3 md:mt-5">
           <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-32">
             Database Tools
@@ -168,6 +169,21 @@ function Skills() {
 
               <span className="text-xs md:text-sm mt-1">SSMS</span>
             </li>
+            {/* <!-- MongoDb --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <MongoDbIcon />
+              <span className="text-xs md:text-sm mt-1">MongoDB</span>
+            </li>
+            
+          </ul>
+        </section>
+
+        {/* <!-- Other Tools --> */}
+        <section className="my-3 md:mt-5">
+          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-32">
+            Other Tools
+          </h3>
+          <ul className="flex flex-wrap pl-6 -mr-8">
 
             {/* <!-- Git --> */}
             <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
@@ -196,6 +212,7 @@ function Skills() {
             </li>
           </ul>
         </section>
+
       </section>
     </div>
   );

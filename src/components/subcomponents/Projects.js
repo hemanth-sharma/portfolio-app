@@ -11,7 +11,7 @@ function Projects() {
         {/* Stackoverflow Survey Data Exploration */}
         <article className="flex flex-col xl:flex-row">
           <img
-            src={process.env.PUBLIC_URL + "/images/project_1.webp"}
+            src={process.env.PUBLIC_URL + "/images/stackoverflow_survey.webp"}
             height="869"
             width="1500"
             alt="Stackoverflow Survey project"
@@ -50,21 +50,21 @@ function Projects() {
               </a>
               <a
                 className="text-lg underline hover:no-underline"
-                href="https://github.com/jxwater/Stackoverflow-Survey-2022-Data-Exploration"
+                href="https://github.com/jxwater/Stackoverflow-Survey-2022-Data-Exploration/blob/main/Stack_overflow.ipynb"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Stackoverflow-Survey-2022-Data-Exploration Blog"
               >
-                Visit website
+                Visit notebook
               </a>
             </div>
           </div>
         </article>
 
-        {/* Covid 19 Data Exploration + Dashboard */}
+        {/* Covid 19 Data Exploration - Dashboard */}
         <article className="mt-16 flex flex-col xl:flex-row">
           <img
-            src={process.env.PUBLIC_URL + "/images/covid-19_project.webp"}
+            src={process.env.PUBLIC_URL + "/images/covid-19.webp"}
             height="869"
             width="1500"
             alt="covid 19 project image"
@@ -77,7 +77,7 @@ function Projects() {
 
             <div className="mb-4">
               <p className="text-sm text-gray-600 mt-1 italic md:text-base">
-                SQL, Excel, Power BI
+                SQL, Excel, Power BI, Tableau, SQL Server Management Studio
               </p>
             </div>
 
@@ -104,12 +104,12 @@ function Projects() {
               </a>
               <a
                 className="text-lg underline hover:no-underline"
-                href="https://github.com/jxwater/Covid-Data-Exploration"
+                href="https://public.tableau.com/app/profile/hemant.sharma4184/viz/Covid19Dashboard_16789767368420/Dashboard1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Covid 19 Tableau Dashboard"
               >
-                Visit website
+                Visit dashboard
               </a>
             </div>
           </div>
@@ -118,7 +118,7 @@ function Projects() {
         {/* Indian Summer Dashboard - Tableau */}
         <article className="flex flex-col xl:flex-row mt-16">
           <img
-            src={process.env.PUBLIC_URL + "/images/summer_project.webp"}
+            src={process.env.PUBLIC_URL + "/images/indian_summer.webp"}
             height="869"
             width="1500"
             alt="indian summer project web page"
@@ -136,16 +136,11 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              ProLOG (an error tracking tool) is the application/codebase of the
-              . This program involved building features and fixing bugs in the
-              ProLog codebase, using advanced workflow with ESLint, Prettier,
-              TypeScript, Husky, CI with GitHub Actions, and Trunk-Based
-              Development with Pull Requests as Git workflow. New features were
-              based on Kanban tasks and Figma designs.
+              Analyzing Indian Summer: Exploring Temperature, Humidity, and Wind Patterns of Top 15 Populous Cities in India with SQL, Excel, and Tableau. It focuses on gaining insights into the effects of Indian summers by analyzing data from 2007-2022 with efficient data cleaning in SQL and Excel, and visualizations in Tableau.
             </p>
 
             <div className="flex items-center justify-start mb-2">
-              <a
+              {/* <a
                 className="text-lg underline hover:no-underline mr-5"
                 href="https://github.com/jxwater"
                 target="_blank"
@@ -153,7 +148,7 @@ function Projects() {
                 aria-label="View code for Indian Summer Project"
               >
                 View code
-              </a>
+              </a> */}
               <a
                 className="text-lg underline hover:no-underline"
                 href="https://public.tableau.com/app/profile/hemant.sharma4184/viz/IndianSummer/Dashboard1"
@@ -161,17 +156,153 @@ function Projects() {
                 rel="noopener noreferrer"
                 aria-label="Visit Indian Summer Dashboard"
               >
-                Visit website
+                Visit dashboard
               </a>
             </div>
           </div>
         </article>
 
         {/* Sales Dashboard Power BI */}
+        <article className="mt-16 flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/sales_dashboard.webp"}
+            height="869"
+            width="1500"
+            alt="Sales Dashboard power bi"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              Sales Data analysis and Visualization
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                Power BI, MySQL, Excel, Data Modeling
+              </p>
+            </div>
+
+            <p className="mb-4">
+              This project aimed to provide Sales insights for AtliQ Hardware dataset through an automated dashboard, reducing manual data gathering time and supporting data-driven decision making. Using Power BI, for Data Visualization and SQL + Excel for Data Cleaning and exploration.
+            </p>
+
+            <div className="flex items-center justify-start mb-5">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/jxwater"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Covid19 Data Exploration"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://public.tableau.com/app/profile/hemant.sharma4184"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Covid 19 Tableau Dashboard"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article>
 
         {/* Netflix Clone Website */}
-        {/* Amazon Clone Website */}
+        <article className="mt-16 flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/netflix_web.webp"}
+            height="869"
+            width="1500"
+            alt="netflix website profile"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              Netflix Website Clone
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                React, Node, Firebase, JavaScript, HTML/CSS
+              </p>
+            </div>
+
+            <p className="mb-4">
+              A website clone of netflix movie streaming site.
+            </p>
+
+            <div className="flex items-center justify-start mb-5">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/jxwater/Netflix-Clone-"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Covid19 Data Exploration"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://netflix-clone-2481f.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Covid 19 Tableau Dashboard"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article>
+
         {/* Code Editor Compiler Website */}
+        {/* <article className="mt-16 flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/codeEditor_.webp"}
+            height="869"
+            width="1500"
+            alt="netflix website profile"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+                Code Editor and Compiler website
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                JavaScript, Nodejs, Express, HTML/CSS
+              </p>
+            </div>
+
+            <p className="mb-4">
+              A compiler and code editor website, which supports multiple coding languages.
+            </p>
+
+            <div className="flex items-center justify-start mb-5">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/jxwater/Code-Editor"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Covid19 Data Exploration"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://compilerwithapi-3p34g82fr89l88n1sc9.web.codequotient.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Covid 19 Tableau Dashboard"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article> */}
+        {/* Amazon Clone Website */}
         {/* Portfolio Website */}
       </section>
     </div>
