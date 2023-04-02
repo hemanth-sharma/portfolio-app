@@ -188,27 +188,55 @@ function Projects() {
 
             <div className="flex items-center justify-start mb-5">
               <a
-                className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View code for Covid19 Data Exploration"
-              >
-                View code
-              </a>
-              <a
                 className="text-lg underline hover:no-underline"
                 href="https://public.tableau.com/app/profile/hemant.sharma4184"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Covid 19 Tableau Dashboard"
               >
-                Visit website
+                Visit dashboard
               </a>
             </div>
           </div>
         </article>
 
+        {/* Seattle Airbnb Insights */}
+        <article className="mt-16 flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/airbnb.webp"}
+            height="869"
+            width="1500"
+            alt="Sales Dashboard power bi"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              Seattle Airbnb Insights Dashboard
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                Tableau, Excel, SQL server
+              </p>
+            </div>
+
+            <p className="mb-4">
+              This project aims to analyze the Seattle Airbnb market by exploring the revenue, bedroom price, and location price of Airbnb listings using the Seattle Airbnb open dataset from Kaggle. The dataset was cleaned and prepared for analysis using Excel, and Tableau was used to create an interactive dashboard that offers insights into the Seattle Airbnb market. The dashboard enables users to identify areas with high average price and understand seasonal trends of 2016.
+            </p>
+
+            <div className="flex items-center justify-start mb-5">
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://public.tableau.com/app/profile/hemant.sharma4184/viz/AirBnBFullProject_16772425344660/Dashboard1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Airbnb Tableau Dashboard"
+              >
+                Visit dashboard
+              </a>
+            </div>
+          </div>
+        </article>
         {/* Netflix Clone Website */}
         <article className="mt-16 flex flex-col xl:flex-row">
           <img
@@ -230,7 +258,7 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              A website clone of netflix movie streaming site.
+              This project is a Netflix website clone developed using React, JavaScript, and Node.js, with Firebase used for hosting. The website retrieves movie details using the TMDB API and allows users to view movie trailers. The project showcases the use of modern web development technologies (MERN stack) to create a functional streaming website.
             </p>
 
             <div className="flex items-center justify-start mb-5">

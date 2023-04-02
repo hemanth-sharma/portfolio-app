@@ -12,7 +12,7 @@ function Header() {
             href="#home"
             className="hidden md:block text-lg xl:text-[22px] font-medium"
           >
-            Cat
+            HS
           </a>
           <nav id="mainmenu" role="navigation" aria-label="Main menu">
             <ul className="flex items-center justify-evenly" role="menubar">

@@ -22,7 +22,7 @@ function Home() {
           <ul className="flex items-center justify-start mt-4">
             <li className="mr-4 md:mr-5">
               <a
-                href="https://github.com/Dimension-9"
+                href="https://github.com/jxwater"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ function Home() {
             </li>
             <li className="mr-4 md:mr-5">
               <a
-                href="https://www.linkedin.com/in/unknown/"
+                href="https://www.linkedin.com/in/hemanth-sharma-7338b5244/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +67,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Resume
+                Resumé
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
@@ -86,7 +86,7 @@ function Home() {
         </section>
         <Projects />
         <Skills />
-        {/* <Contact /> */}
+        <Contact />
       </main>
 
       <Footer />
