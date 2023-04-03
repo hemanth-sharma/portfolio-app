@@ -1,3 +1,8 @@
+# This is a personal portfolio project website
+website link : http://jxwater.github.io/portfolio-app
+
+The website is hosted on github pages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
