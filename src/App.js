@@ -1,11 +1,10 @@
 import "./App.css";
-// import "../public/styles.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative text-gray-800">
       <Header />
       <Home />
     </div>

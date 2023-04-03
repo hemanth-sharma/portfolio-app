@@ -62,7 +62,7 @@ function Home() {
             </li>
             <li className="mr-3">
               <a
-                href="./HEMANT_RESUME_2.pdf"
+                href="#"
                 className="underline hover:no-underline text-lg flex items-center justify-center font-semibold sm:text-xl xl:text-2xl text-gray-800"
                 target="_blank"
                 rel="noopener noreferrer"

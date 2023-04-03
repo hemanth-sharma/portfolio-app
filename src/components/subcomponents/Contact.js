@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
+    <>
       <section id="contact" className="mb-20 w-full">
         <h2 className="font-semibold text-3xl md:text-4xl text-gray-800 mb-6 mt-[86px]">
           Contact Me
@@ -76,7 +76,7 @@ function Contact() {
           </div>
         </section>
       </section>
-    </div >
+    </>
   );
 }
 

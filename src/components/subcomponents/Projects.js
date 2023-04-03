@@ -2,7 +2,7 @@ import React from "react";
 // import project1Image from "../../assets/images";
 function Projects() {
   return (
-    <div>
+    <>
       <section id="projects" className="w-full lg:mb-12">
         <h2 className="font-semibold text-3xl md:text-4xl text-gray-800 mb-8 mt-[86px]">
           Projects
@@ -67,7 +67,7 @@ function Projects() {
             src={process.env.PUBLIC_URL + "/images/covid-19.webp"}
             height="869"
             width="1500"
-            alt="covid 19 project image"
+            alt="covid 19 project"
             className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
           />
           <div className="xl:flex xl:flex-col xl:ml-8">
@@ -333,7 +333,7 @@ function Projects() {
         {/* Amazon Clone Website */}
         {/* Portfolio Website */}
       </section>
-    </div>
+    </>
   );
 }
 

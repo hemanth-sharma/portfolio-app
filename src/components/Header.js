@@ -2,10 +2,10 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <>
       <header
         role="banner"
-        className="px-2 py-3 md:px-0 text-gray-800 shadow-sm fixed top-0 left-0 w-full font-light text-[17px] xl:text-[19px] bg-white/90 backdrop-blur-sm transition-all duration-300 z-10"
+        className="px-2 py-3 md:px-0 text-gray-800 shadow-sm fixed top-0 left-0 w-full font-light text-[17px] xl:text-[19px] bg-white/90 backdrop-blur-sm transition-all duration-300 z-10 responsive-page"
       >
         <div className="md:flex items-center justify-between sm:px-12 md:px-16 mx-auto max-w-4xl xl:max-w-7xl">
           <a
@@ -56,7 +56,7 @@ function Header() {
           </nav>
         </div>
       </header>
-    </div>
+    </>
   );
 }
 
