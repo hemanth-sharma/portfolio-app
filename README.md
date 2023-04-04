@@ -1,5 +1,5 @@
 # This is a personal portfolio project website
-website link : http://jxwater.github.io/portfolio-app
+website link : http://hemanth-sharma.github.io/portfolio-app
 
 The website is hosted on github pages.
 
