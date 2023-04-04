@@ -33,7 +33,7 @@ function Contact() {
             <ul className="flex items-center justify-start mt-4">
               <li className="mr-4 md:mr-5">
                 <a
-                  href="https://github.com/jxwater"
+                  href="https://github.com/hemanth-sharma"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

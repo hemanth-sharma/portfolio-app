@@ -41,7 +41,7 @@ function Projects() {
             <div className="flex items-center justify-start mb-6">
               <a
                 className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater/Stackoverflow-Survey-2022-Data-Exploration"
+                href="https://github.com/hemanth-sharma/Stackoverflow-Survey-2022-Data-Exploration"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View code for Stackoverflow-Survey-2022-Data-Exploration"
@@ -50,7 +50,7 @@ function Projects() {
               </a>
               <a
                 className="text-lg underline hover:no-underline"
-                href="https://github.com/jxwater/Stackoverflow-Survey-2022-Data-Exploration/blob/main/Stack_overflow.ipynb"
+                href="https://github.com/hemanth-sharma/Stackoverflow-Survey-2022-Data-Exploration/blob/main/Stack_overflow.ipynb"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Stackoverflow-Survey-2022-Data-Exploration Blog"
@@ -95,7 +95,7 @@ function Projects() {
             <div className="flex items-center justify-start mb-5">
               <a
                 className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater/Covid-Data-Exploration"
+                href="https://github.com/hemanth-sharma/Covid-Data-Exploration"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View code for Covid19 Data Exploration"
@@ -142,7 +142,7 @@ function Projects() {
             <div className="flex items-center justify-start mb-2">
               {/* <a
                 className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater"
+                href="https://github.com/hemanth-sharma"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View code for Indian Summer Project"
@@ -264,7 +264,7 @@ function Projects() {
             <div className="flex items-center justify-start mb-5">
               <a
                 className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater/Netflix-Clone-"
+                href="https://github.com/hemanth-sharma/Netflix-Clone-"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View code for Covid19 Data Exploration"
@@ -311,7 +311,7 @@ function Projects() {
             <div className="flex items-center justify-start mb-5">
               <a
                 className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/jxwater/Code-Editor"
+                href="https://github.com/hemanth-sharma/Code-Editor"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View code for Covid19 Data Exploration"

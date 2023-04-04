@@ -174,7 +174,7 @@ function Skills() {
               <MongoDbIcon />
               <span className="text-xs md:text-sm mt-1">MongoDB</span>
             </li>
-            
+
           </ul>
         </section>
 
