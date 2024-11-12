@@ -16,7 +16,7 @@ function Home() {
             Hemant Sharma
           </h1>
           <p className="text-2xl md:text-3xl xl:text-4xl">
-            Data Analyst | Data Scientist | Software Developer
+            Software Developer | Data Scientist
           </p>
 
           <ul className="flex items-center justify-start mt-4">

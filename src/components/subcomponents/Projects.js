@@ -8,6 +8,116 @@ function Projects() {
           Projects
         </h2>
 
+        {/* Books Recommendation System */}
+        <article className="flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/books_recommendation.webp"}
+            height="869"
+            width="1500"
+            alt="Books Recommendation Project"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              Books Recommendation System with NLP
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                FastAPI, Scikit-Learn, NLTK, MongoDB Atlas, PyMongo,
+                BeautifulSoup, Pandas, NumPy, Jinja2
+              </p>
+            </div>
+
+            <p className="mb-4">
+              The Book Recommendation System is a web application that suggests books tailored to users’
+              interests. Utilizing NLP to interpret user input, it generates
+              personalized recommendations based on a content-based model that
+              matches user queries with books in the database. <br></br>The database is
+              created using an ETL process, scraping data from Goodreads and
+              uploading it to MongoDB Atlas. The FastAPI backend manages data
+              processing and recommendation generation, ensuring an efficient
+              and responsive experience.
+            </p>
+
+            <div className="flex items-center justify-start mb-6">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/hemanth-sharma/BooksRecommendationSystem.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Books Recommendation Project"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://books-recommendation-bs00.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Vist Books Recommendation Project"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article>
+
+        {/* Artwall Ecommerce Django restframework */}
+        <article className="flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/django_ecommerce1.webp"}
+            height="869"
+            width="1500"
+            alt="Full Stack Ecommerce project"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              ArtWall eCommerce Platform
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                React, Django, Django-restframework, PostgreSQL, AWS S3,
+                Bootstrap, Render
+              </p>
+            </div>
+
+            <p className="mb-4">
+              Built a full-stack eCommerce platform for selling art and posters,
+              using Django REST Framework for the backend and React with
+              Bootstrap for the frontend. Integrated PostgreSQL for product data
+              and AWS S3 for secure, scalable image storage. Developed RESTful
+              APIs to support product browsing, search, user accounts, wishlist,
+              and cart functionality. Deployed seamlessly on Render, hosting
+              both backend and frontend. Automated product data collection with
+              BeautifulSoup and implemented Simple JWT for authentication.
+            </p>
+
+            <div className="flex items-center justify-start mb-6">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/hemanth-sharma/Ecommerce-ArtWall"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Django Ecommerce website"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://ecommerce-artwall-frontend.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Django Ecommerce website"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article>
+
         {/* Stackoverflow Survey Data Exploration */}
         <article className="flex flex-col xl:flex-row">
           <img
@@ -136,7 +246,11 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              Analyzing Indian Summer: Exploring Temperature, Humidity, and Wind Patterns of Top 15 Populous Cities in India with SQL, Excel, and Tableau. It focuses on gaining insights into the effects of Indian summers by analyzing data from 2007-2022 with efficient data cleaning in SQL and Excel, and visualizations in Tableau.
+              Analyzing Indian Summer: Exploring Temperature, Humidity, and Wind
+              Patterns of Top 15 Populous Cities in India with SQL, Excel, and
+              Tableau. It focuses on gaining insights into the effects of Indian
+              summers by analyzing data from 2007-2022 with efficient data
+              cleaning in SQL and Excel, and visualizations in Tableau.
             </p>
 
             <div className="flex items-center justify-start mb-2">
@@ -183,7 +297,11 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              This project aimed to provide Sales insights for AtliQ Hardware dataset through an automated dashboard, reducing manual data gathering time and supporting data-driven decision making. Using Power BI, for Data Visualization and SQL + Excel for Data Cleaning and exploration.
+              This project aimed to provide Sales insights for AtliQ Hardware
+              dataset through an automated dashboard, reducing manual data
+              gathering time and supporting data-driven decision making. Using
+              Power BI, for Data Visualization and SQL + Excel for Data Cleaning
+              and exploration.
             </p>
 
             <div className="flex items-center justify-start mb-5">
@@ -221,7 +339,14 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              This project aims to analyze the Seattle Airbnb market by exploring the revenue, bedroom price, and location price of Airbnb listings using the Seattle Airbnb open dataset from Kaggle. The dataset was cleaned and prepared for analysis using Excel, and Tableau was used to create an interactive dashboard that offers insights into the Seattle Airbnb market. The dashboard enables users to identify areas with high average price and understand seasonal trends of 2016.
+              This project aims to analyze the Seattle Airbnb market by
+              exploring the revenue, bedroom price, and location price of Airbnb
+              listings using the Seattle Airbnb open dataset from Kaggle. The
+              dataset was cleaned and prepared for analysis using Excel, and
+              Tableau was used to create an interactive dashboard that offers
+              insights into the Seattle Airbnb market. The dashboard enables
+              users to identify areas with high average price and understand
+              seasonal trends of 2016.
             </p>
 
             <div className="flex items-center justify-start mb-5">
@@ -258,7 +383,12 @@ function Projects() {
             </div>
 
             <p className="mb-4">
-              This project is a Netflix website clone developed using React, JavaScript, and Node.js, with Firebase used for hosting. The website retrieves movie details using the TMDB API and allows users to view movie trailers. The project showcases the use of modern web development technologies (MERN stack) to create a functional streaming website.
+              This project is a Netflix website clone developed using React,
+              JavaScript, and Node.js, with Firebase used for hosting. The
+              website retrieves movie details using the TMDB API and allows
+              users to view movie trailers. The project showcases the use of
+              modern web development technologies (MERN stack) to create a
+              functional streaming website.
             </p>
 
             <div className="flex items-center justify-start mb-5">

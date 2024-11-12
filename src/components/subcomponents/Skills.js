@@ -17,6 +17,22 @@ import NodeIconSVG from "../../assets/Icons/NodeIcon_SVG";
 import ExpressIconSVG from "../../assets/Icons/ExpressIcon_SVG";
 import ReactIconSVG from "../../assets/Icons/ReactIcon_SVG";
 import MongoDbIcon from "../../assets/Icons/Mongodb_Icon";
+import JavaIcon from "../../assets/Icons/JavaIcon";
+import DjangoIcon from "../../assets/Icons/DjangoIcon";
+import FastapiIcon from "../../assets/Icons/FastapiIcon";
+import SklearnIcon from "../../assets/Icons/SklearnIcon";
+import TensorflowIcon from "../../assets/Icons/TensorflowIcon";
+import PostgressqlIcon from "../../assets/Icons/PostgressqlIcon";
+import DockerIcon from "../../assets/Icons/DockerIcon";
+import GithubIcon from "../../assets/Icons/GithubIcon";
+
+
+// skills 
+// languages = python, javascript, c++, java, sql  
+// libraries = Scikit-Learn, Pandas, Beautiful Soup, OpenCV, Tensorflow
+// frameworks = Django, FastAPI, Reactjs, Node.js, Express,  
+// tools = AWS, Docker, Git, PowerBi, SQL Server, MySQL, Postgresql, MongoDB, 
+// Technology = Machine learning, Data Engineering, PySpark, DataBricks
 
 function Skills() {
   return (
@@ -28,12 +44,12 @@ function Skills() {
 
         <p className="mb-2">
           My toolkit primarily includes the following technologies, but is
-          always expanding:
+          always expanding...
         </p>
 
         {/* <!-- Languages --> */}
         <section className="my-3 md:mt-5">
-          <h3 className="font-light uppercase text-sm sm:text-base border-b mb-3 md:mb-4 w-32">
+          <h3 className="font-light uppercase text-sm sm:text-base border-b mb-3 md:mb-4 w-48">
             Languages
           </h3>
           <ul className="flex flex-wrap pl-6 -mr-8">
@@ -79,24 +95,6 @@ function Skills() {
 
               <span className="text-xs md:text-sm mt-1">Python</span>
             </li>
-            {/* <!-- SQL --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <SqlIcon />
-
-              <span className="text-xs md:text-sm mt-1">SQL</span>
-            </li>
-            {/* <!-- Numpy --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <NumpyIcon />
-
-              <span className="text-xs md:text-sm mt-1">Numpy</span>
-            </li>
-            {/* <!-- Pandas --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <PandasIcon />
-
-              <span className="text-xs md:text-sm mt-1">Pandas</span>
-            </li>
             {/* <!-- JavaScript --> */}
             <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
               <JavascriptSVGIcon />
@@ -109,12 +107,123 @@ function Skills() {
 
               <span className="text-xs md:text-sm mt-1">C++</span>
             </li>
+            {/* <!-- Java --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <JavaIcon />
+
+              <span className="text-xs md:text-sm mt-1">Java</span>
+            </li>
+            {/* <!-- SQL --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <SqlIcon />
+
+              <span className="text-xs md:text-sm mt-1">SQL</span>
+            </li>          
           </ul>
         </section>
 
+
+        {/* <!-- Frameworks and Libraries --> */}
+        <section className="my-3 md:mt-5">
+          <h3 className="font-light uppercase text-sm sm:text-base border-b mb-3 md:mb-4 w-48">
+            Frameworks and Libraries
+          </h3>
+          <ul className="flex flex-wrap pl-6 -mr-8">
+            {/* <!-- Django --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <DjangoIcon />
+
+              <span className="text-xs md:text-sm mt-1">Django</span>
+            </li>
+            {/* FastAPI */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <FastapiIcon />
+
+              <span className="text-xs md:text-sm mt-1">FastAPI</span>
+            </li>
+            {/* <!-- React --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <ReactIconSVG />
+
+              <span className="text-xs md:text-sm mt-1">React.js</span>
+            </li>
+            {/* Sklearn */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <SklearnIcon />
+
+              <span className="text-xs md:text-sm mt-1">Sklearn</span>
+            </li>
+            {/* Tensorflow */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <TensorflowIcon />
+
+              <span className="text-xs md:text-sm mt-1">Tensorflow</span>
+            </li>
+            {/* <!-- Numpy --> */}
+        <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <NumpyIcon />
+
+              <span className="text-xs md:text-sm mt-1">Numpy</span>
+            </li>
+            {/* <!-- Pandas --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <PandasIcon />
+
+              <span className="text-xs md:text-sm mt-1">Pandas</span>
+            </li>
+            {/* <!-- Nodejs --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <NodeIconSVG />
+
+              <span className="text-xs md:text-sm mt-1">Node.js</span>
+            </li>
+            {/* <!-- Express --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <ExpressIconSVG />
+
+              <span className="text-xs md:text-sm mt-1">Express</span>
+            </li>
+            
+          </ul>
+        </section>    
+
+        
+
+        {/* <!-- Database Tools --> */}
+        <section className="my-3 md:mt-5">
+          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-48">
+            Database Tools
+          </h3>
+          <ul className="flex flex-wrap pl-6 -mr-8">
+            {/* <!-- MySQL --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <MySQLIcon />
+
+              <span className="text-xs md:text-sm mt-1">MySQL</span>
+            </li>
+            {/* <!-- PostgresSQL --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <PostgressqlIcon />
+
+              <span className="text-xs md:text-sm mt-1">PostgreSQL</span>
+            </li>
+            {/* <!-- Sql Server --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <SSMSIconSVG />
+
+              <span className="text-xs md:text-sm mt-1">SSMS</span>
+            </li>
+            {/* <!-- MongoDb --> */}
+            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
+              <MongoDbIcon />
+              <span className="text-xs md:text-sm mt-1">MongoDB</span>
+            </li>
+
+          </ul>
+        </section>
         {/* <!-- Data Visualization Tools --> */}
         <section className="my-3 md:mt-5">
-          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-32">
+          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-48">
             Data Visualization Tools
           </h3>
           <ul className="flex flex-wrap pl-6 -mr-8">
@@ -151,36 +260,9 @@ function Skills() {
           </ul>
         </section>
 
-        {/* <!-- Database Tools --> */}
-        <section className="my-3 md:mt-5">
-          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-32">
-            Database Tools
-          </h3>
-          <ul className="flex flex-wrap pl-6 -mr-8">
-            {/* <!-- MySQL --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <MySQLIcon />
-
-              <span className="text-xs md:text-sm mt-1">MySQL</span>
-            </li>
-            {/* <!-- Sql Server --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <SSMSIconSVG />
-
-              <span className="text-xs md:text-sm mt-1">SSMS</span>
-            </li>
-            {/* <!-- MongoDb --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <MongoDbIcon />
-              <span className="text-xs md:text-sm mt-1">MongoDB</span>
-            </li>
-
-          </ul>
-        </section>
-
         {/* <!-- Other Tools --> */}
         <section className="my-3 md:mt-5">
-          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-32">
+          <h3 className="font-light uppercase text-sm md:text-base border-b mb-3 md:mb-4 w-48">
             Other Tools
           </h3>
           <ul className="flex flex-wrap pl-6 -mr-8">
@@ -191,25 +273,20 @@ function Skills() {
 
               <span className="text-xs md:text-sm mt-1">Git</span>
             </li>
-
-            {/* <!-- Nodejs --> */}
+            {/* <!-- Docker --> */}
             <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <NodeIconSVG />
+              <DockerIcon />
 
-              <span className="text-xs md:text-sm mt-1">Node.js</span>
+              <span className="text-xs md:text-sm mt-1">Docker</span>
             </li>
-            {/* <!-- Express --> */}
+            {/* <!-- Github --> */}
             <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <ExpressIconSVG />
+              <GithubIcon />
 
-              <span className="text-xs md:text-sm mt-1">Express</span>
+              <span className="text-xs md:text-sm mt-1">Github</span>
             </li>
-            {/* <!-- React --> */}
-            <li className="flex flex-col items-center justify-center w-12 h-16 pr-[68px] md:pr-[74px]">
-              <ReactIconSVG />
 
-              <span className="text-xs md:text-sm mt-1">React.js</span>
-            </li>
+            
           </ul>
         </section>
 
