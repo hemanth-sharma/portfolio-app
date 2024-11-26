@@ -226,7 +226,7 @@ function Projects() {
         </article>
 
         {/* Indian Summer Dashboard - Tableau */}
-        <article className="flex flex-col xl:flex-row mt-16">
+        {/* <article className="flex flex-col xl:flex-row mt-16">
           <img
             src={process.env.PUBLIC_URL + "/images/indian_summer.webp"}
             height="869"
@@ -254,15 +254,6 @@ function Projects() {
             </p>
 
             <div className="flex items-center justify-start mb-2">
-              {/* <a
-                className="text-lg underline hover:no-underline mr-5"
-                href="https://github.com/hemanth-sharma"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View code for Indian Summer Project"
-              >
-                View code
-              </a> */}
               <a
                 className="text-lg underline hover:no-underline"
                 href="https://public.tableau.com/app/profile/hemant.sharma4184/viz/IndianSummer/Dashboard1"
@@ -274,10 +265,10 @@ function Projects() {
               </a>
             </div>
           </div>
-        </article>
+        </article> */}
 
         {/* Sales Dashboard Power BI */}
-        <article className="mt-16 flex flex-col xl:flex-row">
+        {/* <article className="mt-16 flex flex-col xl:flex-row">
           <img
             src={process.env.PUBLIC_URL + "/images/sales_dashboard.webp"}
             height="869"
@@ -316,7 +307,7 @@ function Projects() {
               </a>
             </div>
           </div>
-        </article>
+        </article> */}
 
         {/* Seattle Airbnb Insights */}
         <article className="mt-16 flex flex-col xl:flex-row">
