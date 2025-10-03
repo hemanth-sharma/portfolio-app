@@ -8,6 +8,54 @@ function Projects() {
           Projects
         </h2>
 
+        {/* InterviewBot AI: SaaS Platform */}
+        <article className="flex flex-col xl:flex-row">
+          <img
+            src={process.env.PUBLIC_URL + "/images/books_recommendation.webp"}
+            height="869"
+            width="1500"
+            alt="InterviewBot AI: SaaS Platform"
+            className="shadow-md rounded-lg xl:max-w-2xl xl:max-h-[389px]"
+          />
+          <div className="xl:flex xl:flex-col xl:ml-8">
+            <h3 className="text-2xl font-semibold mt-4">
+              InterviewBot AI: SaaS Platform
+            </h3>
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 mt-1 italic md:text-base">
+                Next.js, React, Tailwind, FastAPI, LangChain, SpeechToText, PostgreSQL, Pydantic, SQLAlchemy,
+                Vercel, Stripe
+              </p>
+            </div>
+
+            <p className="mb-4">
+            InterviewBot AI is an MVP SaaS platform for adaptive, AI-powered mock interviews with feedback on technical, behavioral, and coding skills. It supports voice input with real-time transcription, playback, and an in-browser coding editor for immersive practice. Built with Next.js, FastAPI, PostgreSQL, JWT + Google OAuth, and deployed on Vercel with Supabase, the platform already has early users actively testing, validating interest, and shaping the next development stage.
+            </p>
+
+            <div className="flex items-center justify-start mb-6">
+              <a
+                className="text-lg underline hover:no-underline mr-5"
+                href="https://github.com/hemanth-sharma/InterviewBot-AI"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View code for Books Recommendation Project"
+              >
+                View code
+              </a>
+              <a
+                className="text-lg underline hover:no-underline"
+                href="https://interview-bot-ai.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Vist Books Recommendation Project"
+              >
+                Visit website
+              </a>
+            </div>
+          </div>
+        </article>
+
         {/* Books Recommendation System */}
         <article className="flex flex-col xl:flex-row">
           <img
